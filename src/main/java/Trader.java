@@ -56,6 +56,7 @@ public class Trader {
         return false;
     }
 
+
     /**
      * Attempt to sell all items that are in both this Trader's inventory
      * and in other's wishlist.
@@ -96,8 +97,10 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
+                new Horse(),
                 // TODO: Add Tradable objects here!
+               new Tuolaji("aab")
+
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
